@@ -1,12 +1,12 @@
 {
-	"name": "nest",
+	"name": "playground",
 	"version": "1.0.0",
-	"description": "Nest Holding Page",
+	"description": "CSS Playground",
 	"scripts": {
 		"dev": "npx tailwindcss -i ./assets/tailwind/style.css -o ./assets/css/style.css --watch --minify",
 		"server": "php -S localhost:9000"
 	},
-	"author": "Andy Fairlie - Anatomy",
+	"author": "Andy Fairlie",
 	"license": "ISC",
 	"devDependencies": {
 		"@captaincss/captaincss": "^2.6.0",

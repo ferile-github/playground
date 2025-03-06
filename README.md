@@ -1,5 +1,5 @@
-# Holding page starter
-Holding page base template
+# CSS Playground
+A playground to test stuff
 
 ## Getting started
 1. Run `yarn` to install dependancies
