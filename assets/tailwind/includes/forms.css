@@ -1,0 +1,34 @@
+/* Reset all form elements */
+input:not([type='checkbox'], [type='radio'], [type='button'], [type='submit'], [type='range'], [type='color']),
+textarea, select {
+  display: block;
+	flex: 1;
+  border-radius: var(--field-border-radius);
+  padding: var(--field-padding);
+  appearance: none;
+  border: solid var(--field-border-width) var(--field-border-color);
+  background: var(--field-background);
+  color: var(--field-color);
+	text-transform: uppercase;
+
+  &:hover {
+    border-color: var(--field-border-hover);
+    background-color: var(--field-background-hover);
+  }
+
+  &:focus {
+    border-color: var(--field-border-focus);
+    background-color: var(--field-background-focus);
+    outline: none;
+  }
+
+  &::placeholder {
+    color: var(--field-placeholder);
+  }
+
+  &:disabled,
+  &[readonly] {
+    opacity: 0.75;
+  }
+}
+

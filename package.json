@@ -1,0 +1,34 @@
+{
+	"name": "nest",
+	"version": "1.0.0",
+	"description": "Nest Holding Page",
+	"scripts": {
+		"dev": "npx tailwindcss -i ./assets/tailwind/style.css -o ./assets/css/style.css --watch --minify",
+		"server": "php -S localhost:9000"
+	},
+	"author": "Andy Fairlie - Anatomy",
+	"license": "ISC",
+	"devDependencies": {
+		"@captaincss/captaincss": "^2.6.0",
+		"@prettier/plugin-php": "^0.23.0",
+		"@tailwindcss/container-queries": "^0.2.0",
+		"@tailwindcss/typography": "^0.6.0",
+		"autoprefixer": "^10.4.17",
+		"postcss": "^8.4.33",
+		"postcss-import": "^15.1.1",
+		"postcss-loader": "^7.3.4",
+		"postcss-mixins": "^9.0.5",
+		"postcss-nested": "^6.0.2",
+		"postcss-pxtorem": "^6.0.1",
+		"prettier": "^3.2.0",
+		"tailwindcss": "^3.4.2",
+		"tailwindcss-inset": "^1.0.1"
+	},
+	"browserslist": [
+		"defaults"
+	],
+	"dependencies": {
+		"jquery": "^3.7.2"
+	},
+	"packageManager": "yarn@1.22.22"
+}

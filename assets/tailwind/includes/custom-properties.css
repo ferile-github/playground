@@ -1,0 +1,65 @@
+:root {
+	/* Site  */
+  /* ---------------------------------------------- */
+	--body-bg: theme('colors.white');
+	--color-dark: theme('colors.black');
+	--color-light: theme('colors.white');
+
+  /* Typography */
+  /* ---------------------------------------------- */
+  --text-body-color: theme('colors.black');
+  --text-link-color: theme('colors.black');
+  --text-link-color-hover: theme('colors.black');
+  --text-link-color-focus: theme('colors.black');
+
+  /* Form fields */
+  /* ---------------------------------------------- */
+  --field-padding: 10px;
+  --field-border-width: 0;
+  --field-border-radius: 20px;
+  --field-error-color: theme('colors.magenta');
+  --field-color: theme('colors.black');
+  --field-placeholder: theme('colors.black');
+	--field-checkbox-color: theme('colors.gray');
+  --field-radio-color: theme('colors.gray');
+  --field-border-color: theme('colors.white');
+  --field-background: theme('colors.white');
+  --field-background-hover: theme('colors.white');
+  --field-border-hover: theme('colors.white');
+  --field-background-focus: theme('colors.white');
+  --field-border-focus: theme('colors.white');
+
+  /* Buttons */
+  /* ---------------------------------------------- */
+  /* Defaults */
+  --btn-radius: 20px;
+  --btn-padding: 10px 18px;
+  --btn-border-width: 1px;
+
+	--btn-background: theme('colors.black');
+  --btn-color: theme('colors.white');
+  --btn-border-color: theme('colors.black');
+
+	--btn-background-hover: theme('colors.slate');
+  --btn-color-hover: theme('colors.white');
+  --btn-border-color-hover: theme('colors.slate');
+
+	--btn-background-disabled: theme('colors.slate');
+  --btn-color-disabled: theme('colors.white');
+  --btn-border-color-disabled: theme('colors.slate');
+
+  /* Primary */
+  --btn-primary-background: theme('colors.magenta');
+  --btn-primary-color: theme('colors.white');
+  --btn-primary-border-color: theme('colors.magenta');
+
+	--btn-primary-background-hover: theme('colors.steel');
+  --btn-primary-color-hover: theme('colors.white');
+  --btn-primary-border-color-hover: theme('colors.steel');
+
+	--btn-primary-background-disabled: theme('colors.slate');
+  --btn-primary-color-disabled: theme('colors.white');
+  --btn-primary-border-color-disabled: theme('colors.slate');
+
+
+}

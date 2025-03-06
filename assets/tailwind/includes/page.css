@@ -1,0 +1,16 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+	min-height: stretch;
+	color: var(--text-body-color);
+	background-color: var(--body-bg);
+}
+
+
+.container {
+	max-width: theme('screens.xl');
+}
+
