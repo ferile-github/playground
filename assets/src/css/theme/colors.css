@@ -1,0 +1,29 @@
+@theme {
+	--color-*: initial;
+	--color-transparent : transparent;
+	--color-black : 	#000000;
+	--color-white : 	#ffffff;
+	--color-blue :		#00243F;
+	--color-slate :		#2a2a35;
+	--color-purple : 	#6E2DFA;
+	--color-red : 		#dc3545;
+	--color-magenta : 	#FF0080;
+
+	--color-gray-10 : #FEFEFE;
+	--color-gray-20 : #cecece;
+	--color-gray-30 : #a2a2a2;
+	--color-gray-40 : #424242;
+	--color-gray-50 : #1f1f1f;
+
+	--color-primary: var(--color-purple);
+	--color-secondary: var(--color-blue);
+	--color-dark: var(--color-gray-50);
+	--color-mid: var(--color-gray-40);
+	--color-light: var(--color-gray-20);
+
+	--color-hover: var(--color-purple);
+	--color-focus: var(--color-purple);
+	--color-border: var(--color-gray-20);
+
+	--color-error: var(--color-red);
+}

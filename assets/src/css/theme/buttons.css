@@ -1,0 +1,44 @@
+@theme {
+	--btn-gap: 12px;
+	--btn-gap-sm: 14px;
+	--btn-gap-lg: 24px;
+
+	--btn-icon-size: 1.2em;
+	--btn-icon-size-sm: 1em;
+	--btn-icon-size-lg: 1.5em;
+
+	--btn-radius: var(--radius-sm);
+	--btn-circle-size: 40px;
+	--btn-border-width: 2px;
+	--btn-transition: all 400ms ease-in-out;
+
+	--btn-padding: 12px 24px;
+	--btn-padding-sm: 6px 12px;
+	--btn-padding-lg: 16px 28px;
+
+
+
+	/* Primary button */
+	--btn-primary-bg: var(--color-secondary);
+	--btn-primary-border: var(--color-secondary);
+	--btn-primary-color: var(--color-white);
+	--btn-primary-bg-hover: --alpha(var(--color-secondary) / 65%);
+	--btn-primary-border-hover: --alpha(var(--color-secondary) / 65%);
+	--btn-primary-color-hover: var(--color-white);
+
+	/* Secondary button */
+	--btn-secondary-bg: var(--color-white);
+	--btn-secondary-border: var(--color-secondary);
+	--btn-secondary-color: var(--color-secondary);
+	--btn-secondary-bg-hover: --alpha(var(--color-secondary) / 65%);
+	--btn-secondary-border-hover: --alpha(var(--color-secondary) / 65%);
+	--btn-secondary-color-hover: var(--color-white);
+
+
+
+	/* Tertiary button */
+	--btn-tertiary-color: var(--color-secondary);
+	--btn-tertiary-color-hover: var(--color-primary);
+
+}
+

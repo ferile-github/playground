@@ -1,0 +1,37 @@
+@source inline("{lg:}col-span-{4,5,6,7,8}");
+@source inline("col-span-{3,4,5,6,7,8,9,10}");
+@source inline("row-span-{3,4}");
+
+@source inline("items-start");
+@source inline("items-center");
+@source inline("items-end");
+
+@source inline("text-center");
+@source inline("text-start");
+@source inline("text-end");
+
+@source inline("justify-start");
+@source inline("justify-center");
+@source inline("justify-end");
+
+@source inline("basis-auto");
+@source inline("order-last");
+@source inline("{md:}basis-1/2");
+@source inline("{md:}basis-1/4");
+@source inline("{md:}basis-1/3");
+@source inline("{md:}basis-2/3");
+@source inline("{md:}basis-3/4");
+
+@source inline("gap-gutter");
+@source inline("gap-gutter-{lg,sm}");
+@source inline("{md:}gap-gutter-{lg, sm}");
+
+@source inline("aspect-portrait");
+@source inline("aspect-landscape");
+@source inline("aspect-video");
+@source inline("aspect-square");
+
+@source inline("{md:}aspect-portrait");
+@source inline("{md:}aspect-landscape");
+@source inline("{md:}aspect-video");
+@source inline("{md:}aspect-square");

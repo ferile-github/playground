@@ -1,0 +1,41 @@
+:root {
+
+	/* Form layout */
+	/* ---------------------------------------------- */
+	--form-row-gap: 8px;
+
+
+	/* Form fields */
+	/* ---------------------------------------------- */
+	--field-padding: 12px 24px;
+	--field-border-width: 1px;
+	--field-border-radius: 50px;
+	--field-textarea-border-radius: 24px;
+	--field-color: var(--color-dark);
+	--field-placeholder: var(--color-navy-50);
+	--field-checkbox-color: var(--color-border);
+
+	--field-background: var(--color-white);
+	--field-border-color: var(--color-border);
+
+	--field-background-hover: var(--color-white);
+	--field-border-hover: var(--color-primary);
+
+	--field-background-focus: var(--color-white);
+	--field-border-focus: var(--color-primary);
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	--checkbox-size: 1.5em;
+	--checkbox-check-color: var(--color-white);
+
+	--checkbox-border: var(--color-border);
+	--checkbox-background: var(--color-white);
+
+	--checkbox-background-hover: var(--color-gray-20);
+	--checkbox-border-hover: var(--color-gray-20);
+
+	--checkbox-background-checked: var(--color-primary);
+	--checkbox-border-checked: var(--color-primary);
+}

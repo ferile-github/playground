@@ -1,0 +1,24 @@
+/**
+* Turn off the default outline for focus on buttons and select.
+* Turn it back on for focus-visible, which is keyboard-only focus.
+*/
+button:focus {
+	outline: none;
+}
+
+button:focus-visible {
+	outline: 5px auto var(--color-primary);
+}
+
+select:focus {
+	outline: none;
+}
+
+select:focus-visible {
+	outline: 5px auto var(--color-primary);
+}
+
+input[type='search']:focus-visible {
+	outline: none;
+	border-color: var(--color-primary);
+}

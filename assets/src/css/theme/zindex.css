@@ -1,0 +1,14 @@
+@theme {
+	--z-max : 2000;
+	--z-masthead : 1990;
+	--z-mainmenu : 1980;
+	--z-mainmenu-secondary-item : 1970;
+	--z-mainmenu-primary-item : 1960;
+	--z-site-search : 1950;
+	--z-page-navigation-menu : 1940;
+	--z-site-overlay : 100;
+	--z-carousel-arrows : 10;
+	--z-hero-banner : 10;
+	--z-min : 10;
+	--z-0 : 0;
+}

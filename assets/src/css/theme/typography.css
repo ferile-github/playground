@@ -1,0 +1,42 @@
+@theme {
+	--text-*: initial;
+	--font-*: initial;
+	--leading-*: initial;
+
+	--font-sans: "Inter", sans-serif;
+	--font-serif: "Suisse Slab", serif;
+	--font-heading: "Suisse", sans-serif;
+	--font-button: "Inter", sans-serif;
+
+	--text-sm: 14px;
+	--text-base: 16px;
+	--text-md: 20px;
+	--text-lg: 32px;
+
+	--text-page-title : utopia.clamp(48, 80);
+	--text-h1 : utopia.clamp(40, 60);
+	--text-h2 : utopia.clamp(32, 48);
+	--text-h3 : utopia.clamp(24, 32);
+	--text-h4 : utopia.clamp(20, 24);
+	--text-h5 : 20px;
+	--text-h6 : 18px;
+
+	--font-weight-light: 300;
+	--font-weight-normal: 300;
+	--font-weight-medium: 400;
+	--font-weight-semibold: 500;
+	--font-weight-bold: 500;
+	--font-weight-black: 500;
+
+
+	--leading-none: 1;
+	--leading-tight: 1.25;
+	--leading-snug: 1.3;
+	--leading-normal: 1.5;
+	--leading-relaxed: 1.625;
+	--leading-loose: 2;
+
+	--text-link-color: var(--color-primary);
+	--text-link-color-hover: var(--color-secondary);
+	--text-link-color-focus: var(--color-secondary);
+}

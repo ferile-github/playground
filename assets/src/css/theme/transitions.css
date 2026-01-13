@@ -1,0 +1,4 @@
+@theme {
+	--animate-duration: 1s;
+	--transition-menu: cubic-bezier(1,.29,.23,.72);
+}

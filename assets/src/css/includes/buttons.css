@@ -6,9 +6,9 @@
 	text-align: center;
 	cursor: pointer;
 	text-decoration: none;
-	font-family: theme('fontFamily.button');
-	font-weight: theme('fontWeight.bold');
-	line-height: theme('lineHeight.none');
+	font-family: var(--font-family-button);
+	font-weight: var(--font-weight-bold);
+	line-height: var(--line-height-none);
 	transition: background-color 200ms ease-out;
 	text-transform: uppercase;
 

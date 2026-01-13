@@ -1,0 +1,64 @@
+@theme {
+	--wp-admin-bar: 32px;
+  --wp-admin-bar-mobile: 46px;
+/* Notification */
+  /* ---------------------------------------------- */
+	--notification-height: var(--spacing-notification);
+
+
+	/* Masthead */
+  /* ---------------------------------------------- */
+	--masthead-logo-width: 240px;
+	--masthead-logo-width-reduced: 180px;
+
+	--masthead-logo-height-mobile: 24px;
+
+	--masthead-background: var(--color-white);
+	--masthead-height-mobile: 85px;
+	--masthead-height-desktop: 80px;
+	--masthead-height-desktop-reduced: 70px;
+
+	--masthead-transition: all 200ms var(--transition-menu);
+	--search-transition: all 200ms ease-in-out;
+
+	--secondary-menu-background: var(--color-secondary);
+	--secondary-menu-height: 35px;
+
+
+	/* Navigation */
+  /* ---------------------------------------------- */
+	--menu-link-hover: var(--color-primary);
+	--menu-link-current: var(--color-primary);
+	--menu-link-transition: all 200ms ease-in-out;
+
+
+	/* Desktop Dropdowns General */
+	--menu-dropdown-transition: opacity 200ms linear;
+	--menu-dropdown-bg: var(--color-white);
+	--menu-dropdown-radius: 0 0 10px 10px;
+	--menu-dropdown-hover-bg: var(--color-primary);
+	--menu-dropdown-current-bg: var(--color-primary);
+	--menu-dropdown-border-color: var(--border-color);
+	--menu-dropdown-width: 250px;
+	--menu-dropdown-padding: 8px;
+	--menu-dropdown-offset: 10px;
+
+	/* Desktop Megamenu Dropdowns */
+	--megamenu-width: 1000px;
+	--megamenu-height: 500px;
+	--megamenu-gap: 10px;
+
+
+	/* Mobile and Tablet Off Canvas menu */
+	--menu-offcanvas-transition: transform 400ms var(--transition-menu), display 100ms ease allow-discrete;
+	--menu-offcanvas-bg: var(--color-secondary);
+	--menu-offcanvas-border: --alpha( var(--color-light) / 20%) );
+	--menu-offcanvas-width: 100vw;
+	--menu-offcanvas-maxwidth: 500px;
+	--menu-offcanvas-menu-hover: var(--color-primary);
+
+	/* Overlay when menus/dropdowns appear */
+	--menu-overlay-transition: opacity 500ms ease-in-out;
+
+
+}

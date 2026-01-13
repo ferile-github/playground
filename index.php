@@ -7,5 +7,6 @@
 <body class="min-h-svh">
 <?php include('includes/body.php') ?>
 <?php include('includes/scripts.php') ?>
+
 </body>
 </html>
