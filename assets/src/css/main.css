@@ -1,10 +1,5 @@
 @import './tailwind/tailwind.css';
 @import './theme/index.css';
-
-/* @import './includes/custom-properties.css'; */
-@import './includes/type.css';
-@import './includes/page.css';
-@import './includes/focus.css';
-@import './includes/forms.css';
-@import './includes/buttons.css';
-@import './includes/navigation-menu.css';
+@import './base/index.css';
+@import './components/index.css';
+@import './utilities/index.css';

@@ -24,7 +24,6 @@ module.exports = {
 	},
 	watchOptions: {
 		ignored: [
-			"**/*.php",
 			'**/node_modules/**',
 			'**/assets/dist/**',
 			'**/acf-json/**/*.json',

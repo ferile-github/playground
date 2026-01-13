@@ -1,0 +1,15 @@
+/* Containers */
+/* ---------------------------------------------- */
+.container {
+	--width: var(--breakpoint-2xl);
+	--gutter: var(--spacing-gutter);
+	max-width: var(--width);
+	margin-inline: auto;
+  padding-inline: var(--gutter);
+
+	&.no-gutters,
+	.container {
+		padding-inline: 0;
+	}
+}
+

@@ -4,7 +4,8 @@
 	"description": "Apollo - A starter WordPress theme",
 	"scripts": {
 		"dev": "webpack --config webpack.config.dev.js",
-		"prod": "webpack --config webpack.config.prod.js"
+		"prod": "webpack --config webpack.config.prod.js",
+		"server" : "php -S localhost:9000"
 	},
 	"author": "Andy Fairlie",
 	"license": "ISC",

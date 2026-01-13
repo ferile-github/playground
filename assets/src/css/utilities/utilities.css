@@ -1,0 +1,135 @@
+/* Useful utilities */
+/* ---------------------------------------------- */
+.text-inherit {
+	color: inherit;
+
+	&:hover,
+	&:focus {
+		color: inherit;
+		text-decoration: none
+	}
+}
+
+
+.flex-stack {
+	display: flex;
+	flex-direction: column;
+	> * {
+		margin-bottom: 0;
+	}
+}
+
+
+/* Dialogs */
+/* ------------------------------------------------------------ */
+::backdrop {
+	background-color: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(4px);
+	transition: all 0.3s ease-out;
+}
+
+dialog {
+	margin-inline: auto;
+	width: calc(100vw - var(--spacing-gutter));
+	max-width: calc(100vw - var(--spacing-gutter));
+	height: 100vh;
+	max-height: 100vh;
+	background-color: transparent;
+}
+
+dialog[open] {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: dialogOpen 500ms ease-out;
+}
+
+body:has(dialog[open]) {
+	overflow: hidden;
+}
+
+@keyframes dialogOpen {
+	from {
+		opacity: 0;
+		transform: scale(.9) ;
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+
+
+/* Responsive Spacings, gutters and padding */
+/* ---------------------------------------------- */
+/* Margin Bottom */
+.mb {
+	@apply mb-32;
+	@apply md:mb-56;
+	@apply lg:mb-80;
+}
+
+
+/* Padding Y */
+.py {
+	@apply py-32;
+	@apply md:py-56;
+	@apply lg:py-80;
+}
+
+
+/* Padding */
+.p {
+	@apply p-16;
+	@apply md:p-24;
+	@apply lg:p-40;
+}
+
+
+/* Padding top */
+.pt {
+	@apply pt-32;
+	@apply md:pt-56;
+	@apply lg:pt-80;
+}
+.pt-sm {
+	@apply pt-20;
+	@apply md:pt-32;
+	@apply lg:pt-40;
+}
+.pt-md {
+	@apply pt-40;
+	@apply md:pt-64;
+	@apply lg:pt-80;
+}
+.pt-lg {
+	@apply pt-64;
+	@apply md:pt-80;
+	@apply lg:pt-120;
+}
+
+
+
+
+/* Padding bottom */
+.pb {
+	@apply pb-32;
+	@apply md:pb-56;
+	@apply lg:pb-80;
+}
+.pb-sm {
+	@apply pb-20;
+	@apply md:pb-32;
+	@apply lg:pb-40;
+}
+.pb-md {
+	@apply pb-40;
+	@apply md:pb-64;
+	@apply lg:pb-80;
+}
+.pb-lg {
+	@apply pb-64;
+	@apply md:pb-80;
+	@apply lg:pb-120;
+}

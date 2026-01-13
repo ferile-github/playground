@@ -21,12 +21,7 @@
 html {
 	scroll-behavior: smooth;
 	scroll-padding-top: calc(var(--masthead-height-desktop) + 80px);
-	cursor: progress;
 	background-color: var(--color-dark);
-
-	&.has-dom-ready {
-		cursor: inherit;
-	}
 }
 
 @media ( width >= theme(--breakpoint-lg) ) {
