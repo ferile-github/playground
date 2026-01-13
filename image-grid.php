@@ -1,3 +1,3 @@
 <?php include('includes/top.php') ?>
-<?php include('content/homepage.php') ?>
+<?php include('content/image-grid.php') ?>
 <?php include('includes/bottom.php') ?>

@@ -20,7 +20,7 @@ module.exports = {
 		publicPath: './',
 	},
 	resolve: {
-		extensions: ['.ts', '.tsx', '.js', '.jsx'],
+		extensions: ['.ts', '.tsx', '.js', '.jsx', '.php'],
 	},
 	watchOptions: {
 		ignored: [
