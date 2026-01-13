@@ -2,7 +2,15 @@ composer.lock
 /node_modules
 /vendor
 .DS_store
-assets/css
+assets/dist/
 *.log
 .env
 .vscode/
+.yarnrc.yml
+.yarn/install-state.gz
+.yarn/
+.pnp.cjs
+.pnp.loader.mjs
+deploy.sh
+deploy-prod.sh
+deploy-cleanstart.sh
