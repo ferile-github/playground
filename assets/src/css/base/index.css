@@ -1,6 +1,6 @@
-@import './page.css';
-@import './focus.css';
-@import './type.css';
-@import './forms.css';
 @import './fonts.css';
+@import './page.css';
+@import './focus.css' layer(base);
+@import './type.css' layer(base);
+@import './forms.css' layer(base);
 
