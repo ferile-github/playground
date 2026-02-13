@@ -1,28 +1,48 @@
-/* Base class, used to primary and secondary buttons */
+/* Base button class */
+/* ---------------------------------------------- */
 .btn {
 	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
 	cursor: pointer;
 	text-decoration: none;
-	font-family: var(--font-family-button);
-	font-weight: var(--font-weight-bold);
-	line-height: var(--line-height-none);
-	transition: background-color 200ms ease-out;
-	text-transform: uppercase;
-
-	color: var(--btn-color);
-	background: var(--btn-background);
-	border-radius: var(--btn-radius);
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	overflow: hidden;
+	background-clip: padding-box;
+	position: relative;
+	font-weight: var(--font-weight-normal);
+	font-size: var(--text-sm);
+	line-height: 1;
+	transition: var(--btn-transition);
+	gap: var(--btn-gap);
 	padding: var(--btn-padding);
-	border: solid var(--btn-border-width) var(--btn-border-color);
+	transition: var(--btn-transition);
 
-	&:hover,
+	&[disabled] {
+		cursor: default;
+		filter: grayscale(100%);
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+
+
+/* Primary buttons */
+/* ---------------------------------------------- */
+.btn-primary {
+	border: solid var(--btn-border-width) var(--btn-primary-border);
+	border-radius: var(--btn-radius);
+	background-color: var(--btn-primary-bg);
+	color: var(--btn-primary-color);
+
+	&:hover:not([disabled]),
 	&:focus {
 		text-decoration: none;
-		color: var(--btn-color-hover);
-		background: var(--btn-background-hover);
-		border-color: var(--btn-border-color-hover);
+		color: var(--btn-primary-color-hover);
+		border-color: var(--btn-primary-border-hover);
+		background-color: var(--btn-primary-bg-hover);
 	}
 }

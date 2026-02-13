@@ -10,6 +10,9 @@
 			<li>
 				<a href="/image-grid.php" class="hover:no-underline uppercase">Image Grid</a>
 			</li>
+			<li>
+				<a href="/container-queries.php" class="hover:no-underline uppercase">Container Queries</a>
+			</li>
 		</ol>
 	</div>
 </nav>
